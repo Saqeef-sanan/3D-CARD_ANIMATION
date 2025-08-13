@@ -8,13 +8,7 @@ This project demonstrates a 3D card that responds to user interaction—such as 
 
 ##  Demo
 
-Include a hosted demo or GIF here if available.  
-_For example:_  
-![3D Card Preview](endgame.png)  
-*Or link your live demo:*  
-https://your-username.github.io/3D-CARD_ANIMATION/
-
----
+![Screenshot_13-8-2025_201246_127 0 0 1](https://github.com/user-attachments/assets/292ff9bb-3e66-4f1b-b019-fae06fcca784)
 
 ##  Getting Started
 
