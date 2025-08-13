@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("endgame.png");
+    background-size: cover;
+}
+.box{
+    position: relative;
+    width: 20rem;
+    height: 28rem;
+    cursor: pointer;
+}
+.space{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url("idcard.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 2s;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px;
+}
+
+.box:hover .space{
+    transition: 1s;
+    transform: perspective(20px) rotateX(2deg) translateY(-50px);
+}
+
+.iron-man{
+    top: 100px;
+    position: absolute;
+    width: 20rem ;
+    height: 20rem;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    animation: gifAnimation 2s linear infinite;
+    animation-play-state: paused!important;
+    transition: 2s;
+}
+
+.box:hover .iron-man{
+    animation-play-state:running!important;
+    transform: translateY(-220px) translateX(-10px);
+}
+@keyframes gifAnimation{
+    from{
+        background-image: url("8689369-removebg-preview.png");
+    }
+    to{
+        background-image: url("8689369-removebg-preview.png");
+    }
+}
